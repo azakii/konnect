@@ -66,7 +66,7 @@ const ExploreDestination = () => {
             // stagePadding:100
           },
           1200: {
-            items: 3,
+            items: 4,
             // stagePadding:40
           },
         },
