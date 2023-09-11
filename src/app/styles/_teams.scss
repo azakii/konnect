@@ -390,6 +390,8 @@ footer {
         box-shadow:none;
     }
 }
-.navbar-collapse {
-    padding: 2rem 1rem;
+@media (max-width: 960px) {
+    .navbar-collapse {
+        padding: 2rem 1rem;
+    }
 }
