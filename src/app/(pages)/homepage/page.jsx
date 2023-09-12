@@ -1,4 +1,6 @@
 "use client";
+import Link from "next/link";
+
 import {
   Layout,
   Slider,
@@ -21,7 +23,18 @@ const Homepage = () => {
           </div>
         </div>
         <div className="trendSection gray-bg">
+            <div className="container">
+                <div className="pb-5">
+                    <h2>Trending experiences in Saudi Arabia</h2>
+                    <p>Check the latest experiences in Saudi Arabia</p>
+                </div>
+            </div>
             <Trends />
+            <div className="text-center mt-5">
+                <Link href={'#'} className="btn exploreMore">
+                    Explore more
+                </Link>
+            </div>
         </div>
 
         <div className="howItWorks">

@@ -9,5 +9,6 @@ export {default as HowItWorks} from './homeComponets/howItWork/howItWorks';
 export {default as ExploreDestination} from './homeComponets/exploreDestination/exploreDestination';
 export {default as Experiences} from './homeComponets/experiences/experiences';
 export {default as MeetourKreators} from './homeComponets/meetourKreators/meetourKreators';
+export {default as SearchBlock} from './searchBlock/searchBlock';
 
 

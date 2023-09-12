@@ -81,12 +81,6 @@ const Trends = () => {
       
     return (
         <div className='trends'>
-            <div className="container">
-                <div className="pb-5">
-                    <h2>Trending experiences in Saudi Arabia</h2>
-                    <p>Check the latest experiences in Saudi Arabia</p>
-                </div>
-            </div>
             <div className="container-fluid">
                 <div className="row">
                     {items.map((card, index) => (
@@ -95,11 +89,6 @@ const Trends = () => {
                         </div>
                     ))}
                 </div>
-            </div>
-            <div className="text-center mt-5">
-                <Link href={'#'} className="btn exploreMore">
-                    Explore more
-                </Link>
             </div>
         </div>
     );

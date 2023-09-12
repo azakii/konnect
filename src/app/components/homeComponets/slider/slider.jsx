@@ -1,7 +1,7 @@
 import "owl.carousel/dist/assets/owl.carousel.css"; 
 import "owl.carousel/dist/assets/owl.theme.default.css";
 // import Link from "next/link";
-import {Cards} from "@/app/components/index";
+import {Cards, SearchBlock} from "@/app/components/index";
 
 import dynamic from "next/dynamic";
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), { ssr: false });
@@ -89,17 +89,9 @@ const Slider = () => {
         <h1><span>Travel Redefined</span> A Community of Travelers</h1>
         <p>Konnect is a community-driven platform that allows travelers to develop and sell their experiences to other travelers. </p>
       </div>  
-      <div className="searchBlock">
-        <div className="wrap">
-          <div className="search relative-position">
-              <i className="fa fa-search"></i>
-              <input type="text" className="searchTerm" placeholder="Search by Destination, Kreator...." />
-              <button type="submit" className="searchButton">
-                  Search
-              </button>
-          </div>
-        </div>
-        </div>
+
+      <SearchBlock />
+
       </div>
     </div>
     <div className="col-md-8">

@@ -8,42 +8,42 @@ const ExploreDestination = () => {
         {
           src: "/assets/images/destinations/des1.png",
           title: "Saudi Arabia",
-          path: "meetAndGreet",
+          path: "explore",
         },
         {
           src: "/assets/images/destinations/des2.png",
           title: "Europe",
-          path: "meetAndGreet",
+          path: "explore",
         },
         {
           src: "/assets/images/destinations/des3.png",
           title: "Discover the Gulf of Aqaba in Neom",
-          path: "meetAndGreet",
+          path: "explore",
         },
         {
           src: "/assets/images/destinations/des4.png",
           title: "Africa",
-          path: "meetAndGreet",
+          path: "explore",
         },
         {
           src: "/assets/images/cards/image5.png",
           title: "Discover the Gulf of Aqaba in Neom",
-          path: "meetAndGreet",
+          path: "explore",
         },
         {
           src: "/assets/images/cards/image6.png",
           title: "Discover the Gulf of Aqaba in Neom",
-          path: "meetAndGreet",
+          path: "explore",
         },
         {
           src: "/assets/images/cards/image7.png",
           title: "Discover the Gulf of Aqaba in Neom",
-          path: "meetAndGreet",
+          path: "explore",
         },
         {
           src: "/assets/images/cards/image8.png",
           title: "Discover the Gulf of Aqaba in Neom",
-          path: "meetAndGreet",
+          path: "explore",
         }
       ];
 
