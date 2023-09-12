@@ -426,6 +426,15 @@ footer {
 
 .lightGreen {
     background: #EAF2EE;
+    
+    &.pt-5 {
+        padding-top:7rem !important;
+        padding-right:3rem;
+        padding-left:3rem;
+    }
+    .rate {
+        // margin:1rem;
+    }
 }
 .travelStyle {
     ul {
@@ -441,6 +450,37 @@ footer {
                 font-size:1rem;
                 padding:.5rem 2rem;
                 border-radius:50px
+            }
+        }
+    }
+}
+
+.xs-view {
+    display:none;
+    @media (max-width: 960px) {
+        display:block;
+    }
+
+}
+
+.lg-view {
+    display:block;
+    @media (max-width: 960px) {
+        display:none;
+    }
+}
+
+
+.ico {
+    margin-right:1rem
+}
+
+.mystore {
+    .trendSection {
+        padding:0;
+        @media (min-width: 768px) {
+            .col-md-3 {
+                width: 33.33333333%;
             }
         }
     }
