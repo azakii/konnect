@@ -7,7 +7,7 @@ import Stars from "../../../../public/assets/images/stars.png";
 import profileimg from "../../../../public/assets/images/profileimg.png";
 
 import chield from "../../../../public/assets/images/chield.png";
-import home from "../../../../public/assets/images/icons/hhome.png";
+import homeIcon from "../../../../public/assets/images/icons/hhome.png";
 import { BsLinkedin, BsInstagram } from "react-icons/bs";
 
 
@@ -45,7 +45,7 @@ const Homepage = () => {
                 <div className="info">
                     <h6>
                     <Image
-                    src={home}
+                    src={homeIcon}
                     width={24}
                     height={24}
                     alt=""  className="mr-3"/>Mujammah, Jeddah, Saudi Arabia</h6>
