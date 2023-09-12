@@ -7,7 +7,7 @@ import Stars from "../../../../public/assets/images/stars.png";
 import profileimg from "../../../../public/assets/images/profileimg.png";
 
 import chield from "../../../../public/assets/images/chield.png";
-import home from "../../../../public/assets/images/icons/home.png";
+import home from "../../../../public/assets/images/icons/hhome.png";
 import { BsLinkedin, BsInstagram } from "react-icons/bs";
 
 
