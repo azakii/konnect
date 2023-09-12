@@ -7,7 +7,7 @@ import Stars from "../../../../public/assets/images/stars.png";
 import profileimg from "../../../../public/assets/images/profileimg.png";
 
 import chield from "../../../../public/assets/images/chield.png";
-import home from "../../../../public/assets/images/home.png";
+import home from "../../../../public/assets/images/icons/home.png";
 import { BsLinkedin, BsInstagram } from "react-icons/bs";
 
 
@@ -60,22 +60,22 @@ const Homepage = () => {
                     <h2 className="text-green">Travel Style</h2>
                     <ul>
                         <li>
-                            <span class="badge badge-pill badge-light">History</span>
+                            <span className="badge badge-pill badge-light">History</span>
                         </li>
                         <li>
-                            <span class="badge badge-pill badge-light">People & Culture</span>
+                            <span className="badge badge-pill badge-light">People & Culture</span>
                         </li>
                         <li>
-                            <span class="badge badge-pill badge-light">Art</span>
+                            <span className="badge badge-pill badge-light">Art</span>
                         </li>
                         <li>
-                            <span class="badge badge-pill badge-light">Food</span>
+                            <span className="badge badge-pill badge-light">Food</span>
                         </li>
                         <li>
-                            <span class="badge badge-pill badge-light">Family</span>
+                            <span className="badge badge-pill badge-light">Family</span>
                         </li>
                         <li>
-                            <span class="badge badge-pill badge-light">Budget</span>
+                            <span className="badge badge-pill badge-light">Budget</span>
                         </li>
                     </ul>
                 </div>
@@ -83,10 +83,10 @@ const Homepage = () => {
                     <h2 className="text-green">Destinations</h2>
                     <ul>
                         <li>
-                            <span class="badge badge-pill badge-light">Jedda, Saudi Arabia</span>
+                            <span className="badge badge-pill badge-light">Jedda, Saudi Arabia</span>
                         </li>
                         <li>
-                            <span class="badge badge-pill badge-light">Stepantsminda, Georgia</span>
+                            <span className="badge badge-pill badge-light">Stepantsminda, Georgia</span>
                         </li>
                     </ul>
                 </div>
@@ -102,7 +102,7 @@ const Homepage = () => {
                         </li>
                     </ul>
                 </div>
-                <div class="text-center mt-5 mb-5"><a class="btn exploreMore fs-6" href="#">Book a consultation call with me</a></div>
+                <div className="text-center mt-5 mb-5"><a className="btn exploreMore fs-6" href="#">Book a consultation call with me</a></div>
             </div>
             <div className="col-md-8">
                 {/* tab */}
