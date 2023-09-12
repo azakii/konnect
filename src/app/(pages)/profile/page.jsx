@@ -2,12 +2,12 @@
 // import Link from "next/link";
 import Image from "next/image";
 import {Layout} from "@/app/components/index";
-import Hero from "public/assets/images/board.png";
-import Stars from "public/assets/images/stars.png";
-import profileimg from "public/assets/images/profileimg.png";
+import Hero from "../../../../public/assets/images/board.png";
+import Stars from "../../../../public/assets/images/stars.png";
+import profileimg from "../../../../public/assets/images/profileimg.png";
 
-import chield from "public/assets/images/chield.png";
-import home from "public/assets/images/home.png";
+import chield from "../../../../public/assets/images/chield.png";
+import home from "../../../../public/assets/images/home.png";
 import { BsLinkedin, BsInstagram } from "react-icons/bs";
 
 
