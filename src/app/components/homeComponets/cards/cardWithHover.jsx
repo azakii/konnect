@@ -9,39 +9,43 @@ const Cards = (props) => {
                 <div className='info'>
                     <div className="d-flex justify-content-between align-items-center">
                         <div className="userImgProfile" data-aos="zoom-in">
-                            <Link href={`${profilePath}`}>
-                                <Image 
-                                src={profileImg} 
-                                width={50} 
-                                height={50} 
-                                className="card-img-top"
-                                alt="src" />
-                            </Link>
+                        <Link href={profilePath}>
+                            <Image 
+                            src={profileImg} 
+                            width={50} 
+                            height={50} 
+                            className="card-img-top"
+                            alt="src" />
+                        </Link>
                         </div>
                         <div className="aa">
                             <span className="badge rounded-pill bg-light text-dark">${price}</span>
                         </div>
                     </div>
                 </div>
-                <Link href={`${path}`}>
+                <Link href={path}>
                 <Image 
                     src={src} 
+                    // width={344} 
+                    // height={460} 
                     width={0}
                     height={0}
                     sizes="100vw"
                     style={{ width: '100%', height: 'auto', backgroundSize: 'cover' }}
+
                     className="card-img-bottom" 
                     alt="src" />
-
-                <Image 
+                    <Image 
                     src={hover} 
+                    // width={344} 
+                    // height={460} 
                     width={0}
                     height={0}
                     sizes="100vw"
                     style={{ width: '100%', height: 'auto', backgroundSize: 'cover' }}
+
                     className="card-img-hover" 
                     alt="src" />
-                    
                 </Link>
                 <div className="card-body">
                     <h5 className="card-title"><Link href={path}>{title}</Link></h5>

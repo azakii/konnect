@@ -9,8 +9,10 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), { ssr: false });
 const items = [
   {
     src: "/assets/images/cards/image1.png",
+    src2: "/assets/images/cards/image4.png",
     title: "Discover the Gulf of Aqaba in Neom",
-    path: "meetAndGreet",
+    path: "profile",
+    profileLink: "profile",
     location: "Saudi Arabia, Jeddah",
     days: 3,
     profileImg:  "/assets/images/profiles/pro1.png",
@@ -18,8 +20,9 @@ const items = [
   },
   {
     src: "/assets/images/cards/image2.png",
+    src2: "/assets/images/cards/image5.png",
     title: "Discover the Gulf of Aqaba in Neom",
-    path: "meetAndGreet",
+    path: "profile",
     location: "Saudi Arabia, Jeddah",
     days: 3,
     profileImg:  "/assets/images/profiles/pro1.png",
@@ -27,8 +30,10 @@ const items = [
   },
   {
     src: "/assets/images/cards/image3.png",
+    src2: "/assets/images/cards/image1.png",
     title: "Discover the Gulf of Aqaba in Neom",
-    path: "meetAndGreet",
+    path: "profile",
+    profileLink: "profile",
     location: "Saudi Arabia, Jeddah",
     days: 3,
     profileImg:  "/assets/images/profiles/pro1.png",
@@ -36,8 +41,10 @@ const items = [
   },
   {
     src: "/assets/images/cards/image4.png",
+    src2: "/assets/images/cards/image1.png",
     title: "Discover the Gulf of Aqaba in Neom",
-    path: "meetAndGreet",
+    path: "profile",
+    profileLink: "profile",
     location: "Saudi Arabia, Jeddah",
     days: 3,
     profileImg:  "/assets/images/profiles/pro1.png",
@@ -45,8 +52,10 @@ const items = [
   },
   {
     src: "/assets/images/cards/image5.png",
+    src2: "/assets/images/cards/image2.png",
     title: "Discover the Gulf of Aqaba in Neom",
-    path: "meetAndGreet",
+    path: "profile",
+    profileLink: "profile",
     location: "Saudi Arabia, Jeddah",
     days: 3,
     profileImg:  "/assets/images/profiles/pro1.png",
@@ -98,7 +107,7 @@ const Slider = () => {
           <OwlCarousel className="owl-theme" items={3} loop smartSpeed={1050} margin={15}  dots={false} nav {...options}>
             {items.map((card, index) => (
               <div className={`item`} key={index}>
-                <Cards src={card.src} title={card.title} path={card.path}  location={card.location} days={card.days} profileImg={card.profileImg} price={card.price} />
+                        <Cards src={card.src} title={card.title} path={card.path}  location={card.location} days={card.days} profilePath={card.profileLink} hover={card.src2} profileImg={card.profileImg} price={card.price} />
               </div>
             ))}
           </OwlCarousel>
