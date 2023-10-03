@@ -1,0 +1,60 @@
+@import "./_variables";
+
+
+
+html[lang="ar"] {
+    body {
+        direction:rtl;
+        font-family: $ar2;
+        .owl-carousel {direction: ltr}
+        .card {
+            direction: rtl;
+            .card-body {
+            }
+        }
+        .destination {
+            .owl-carousel {direction: ltr}    
+            .owl-nav {left: 130px;right:auto}
+        }
+        footer {
+            h4 {
+                height:40px;
+            }
+            ul {
+                margin:0;
+                padding: 0;
+                li {
+                     margin-top:10px;
+                }
+            }
+        }
+        .search {
+            .searchButton {
+                left:0;
+                right:inherit;
+                border-radius: 66px 0 0 66px ;
+            }
+            input {
+                background-position: 95% center;
+            }
+        }
+        .catTabs.border-start {
+            padding-right: 3rem;
+            margin-right: 3rem;
+            padding-left: 0;
+            margin-left: 0;
+            border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+            border-left: 0 !important;
+        }
+        .slider {
+            .owl-carousel {
+                .owl-nav {
+                    left:  130px;
+                    right:inherit;
+                }
+            }
+        }
+
+    }
+    
+}
